@@ -1,0 +1,25 @@
+from math import tan,sin,cos,pi,atan
+
+ro=200/pi
+R=float(input("R:"))
+L=float(input("L:"))
+Vp=float(input("Vp:"))
+B=float(input("B:"))
+do=float(input("do:"))
+
+d=round(0.00443*Vp**2/R,4)
+print("d:",d)
+hk=round(-0.02*B/2,2)
+h1=round(-do*B/2,2)
+h2=round(d*B/2,2)
+ht=round((h1+h2)/2,3)
+dt=round((do+d)/2,4)
+print("dt:",dt)
+print("hk for K :",hk)
+print("h1 for Ua:",h1)
+print("h2 for Ue:",h2)
+print("ht for T1:",ht)
+alfa=round(atan((h2-h1)/L)*ro,4)
+K=round(2*h1*L/(h2-h1),4)
+print("Alfa:",alfa)
+print("K:",K)
