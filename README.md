@@ -1,4 +1,4 @@
-## The Codes for Geomatics Engineering Lessons
+## The Scripts for Geomatics Engineering Lessons
 These are codes for Geomatics Engineering Lessons. The lessons at Yıldız Technical University were based on while the codes were written.
 
 ### Requirements
